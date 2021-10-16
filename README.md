@@ -2,10 +2,11 @@
 
 * [x] Installing postgresql
 * [x] Accessing postgresql fra Intellij
-* [ ]
-  * []
-  * []
-* [ ]
+* [ ] Access database from Java
+* [ ] Test: retrieving an inserted person from database
+  * Add dependency on Postgresql driver with Maven
+  * Add AssertJ testing library with Maven
+* [ ] Test: list people by last name
   
 
 ## Database
