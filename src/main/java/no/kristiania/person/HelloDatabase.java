@@ -10,7 +10,6 @@ import java.sql.SQLException;
 
 public class HelloDatabase {
 
-    private Person person;
     private DataSource dataSource;
 
     public HelloDatabase(DataSource dataSource) {
@@ -47,7 +46,6 @@ public class HelloDatabase {
                 person.setId(rs.getLong("id"));
             }
         }
-        this.person = person;
     }
 
     public Person retrieve(long id) throws SQLException {
@@ -63,6 +61,6 @@ public class HelloDatabase {
                 }
             }
         }
-        return person;
+        return null;
     }
 }
